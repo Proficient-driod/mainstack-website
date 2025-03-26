@@ -1,0 +1,145 @@
+.footer {
+  background-color: #111;
+  color: #fff;
+  padding-left: 60px;
+  padding-right: 90px;
+  font-family: Arial, sans-serif;
+  margin-top: 0px;
+  padding-bottom: 80px;
+  
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top:45px ;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  margin-bottom: 20px;
+}
+
+
+.footer-section >img{
+  margin-left: 60px;
+  margin-top: 30px;
+}
+.footer-section >ul{
+  margin-left: 60px;
+}
+
+.social-icons >p{
+  font-size: 15px;
+}
+.social-icons >img{
+  margin-top: 25px;
+}
+.footer-section h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  margin-left: 60px;
+  line-height: 120%;
+  letter-spacing: 0.1px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+.footer-section ul li a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-section ul li a:hover {
+  color: #fff;
+}
+
+
+
+.social-links a {
+  margin-right: 10px;
+  font-size: 20px;
+  color: #ccc;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #fff;
+}
+
+.footer-locations {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-top: 1px solid #333;
+  padding-top: 20px;
+  margin-top: 20px;
+  margin-left: 60px;
+}
+
+.location {
+  flex: 1;
+  min-width: 200px;
+  margin-bottom: 20px;
+}
+
+.location h4 {
+  margin-bottom: 8px;
+  font-size: 22px;
+  line-height: 120%;
+  letter-spacing: 0.1px;
+  font-weight: 700;
+}
+
+.footer-bottom {
+  border-top: 1px solid #333;
+  padding-top: 20px;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.disclaimer {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  letter-spacing: -0.2px;
+  color: #777;
+  margin-left: 55px;
+}
+.footer-bottom  span{
+  margin-right: 200px; 
+  margin-left: 60px;
+}
+.footer-bottom .main{
+  margin-top: 50px;
+}
+
+.vector{
+  width: 71.32px;
+  height: 11.96px;
+  top: 0.05px;
+  left: 0.04px;
+}
+
+.main{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  margin-left: 60px;
+}
+

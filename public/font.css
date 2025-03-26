@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'Font1';
+  src: url('/Web/Degular-Regular.woff2') format('woff2'),
+       url('/Web/Degular-Regular.woff') format('woff');
+       font-weight: 400;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: 'Font2';
+  src: url('/Web/Degular-Semibold.woff2') format('woff2'),
+       url('/Web/Degular-Semibold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Font3';
+  src: url('/Web/Degular-Medium.woff2') format('woff2'),
+       url('/Web/Degular-Medium.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Font4';
+  src: url('/Web/Degular-Bold.woff2') format('woff2'),
+       url('/Web/Degular-bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Font5';
+  src: url('/Web/Degular_Display-Regular.woff2') format('woff2'),
+       url('/Web/Degular_Display-Regular.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Font6';
+  src: url('/Web/Degular_Display-Bold.woff2') format('woff2'),
+       url('/Web/Degular_Display-Bold.woff') format('woff');
+       font-weight: 700;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Font7';
+  src: url('/web/Degular_Display-Light.woff2') format('woff2'),
+       url('/Web/Degular_Display-Light.woff') format('woff');
+       font-weight: 300;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Font8';
+  src: url('/Web/Degular_Display-Semibold.woff2') format('woff2'),
+       url('/Web/Degular_Display-Semibold.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Font9';
+  src: url('/Web/Degular_Display-Semibold.woff2') format('woff2'),
+       url('/web/Degular_Display-Semibold.woff') format('woff');
+}
+
+
+
+/* Repeat for all fonts */

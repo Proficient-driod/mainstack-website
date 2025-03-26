@@ -1,0 +1,33 @@
+.showcase-container {
+  display: flex;
+  margin-top: 50px;
+  color: #ffffff;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.showcase-container >img{
+    width: 1440px;
+    height: 696px;
+    border-radius: 30px;
+    margin: 0px auto;
+}
+
+.showcase-content {
+  position: absolute;
+}
+.showcase-content >img{
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+
+.showcase-text {
+  font-size: 64px;
+  font-weight: 600;
+  color: white;
+  line-height: 100%;
+  letter-spacing: 1%;
+  margin-left: 80px;
+}
+

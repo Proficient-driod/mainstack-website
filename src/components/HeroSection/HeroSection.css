@@ -1,0 +1,180 @@
+/**.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(to right, #000, #0a0a0a);
+  color: white;
+  padding: 60px 100px;
+  min-height: 400px;
+  width: 100%;
+  margin-top: 0px;
+}
+
+.hero-content {
+  max-width: 50%;
+}
+.hero-content >p{
+margin-top: 30px;
+}
+
+.hero-content .tag{
+  margin-top: 80px;
+}
+
+.badge {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 42px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background: white;
+  color: black;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+  margin-top: 50px;
+}
+
+.cta-button:hover {
+  background: #ddd;
+}
+
+.as-seen-in {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/**.as-seen-in > .pic {
+  size: 14px;
+  line-height: 16px;
+  letter-spacing: 2px;
+  opacity: 0.8;
+}
+
+
+.as-seen-in img {
+  height: 20px;
+  opacity: 0.8;
+  margin-top: 80px;
+  margin-bottom: 40px
+}*/
+
+.hero-image img {
+  max-width: 400px;
+}
+
+
+
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #000;
+  color: white;
+  /* width: 100%; */
+  height: 50%;
+  padding: 60px 100px;
+  overflow: hidden;
+  margin-top: -35px;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.powered-btn {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  padding: 6px 14px;
+  border-radius: 15px;
+  font-size: 12px;
+  margin-top: 70px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  
+}
+
+.hero-content> h1 {
+  font-size: 78px ;
+  font-weight: 600px !important;
+  margin-top: 0px;
+  line-height: 70px;
+  word-spacing: 3px !important;
+  margin-bottom: 30px;
+  margin-left: 0px;
+}
+
+
+.hero-content >p {
+  font-size: 20px;
+  margin: 20px 0;
+  color: #aaa;
+  line-height: 26px;
+  letter-spacing: -0.2px;
+  margin-top: 0px;
+  margin-left: 12px;
+}
+
+.cta-buttonn {
+  background: white;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 170px;
+  height: 64px;
+  margin-top: 40px;  
+}
+
+.cta-btn:hover {
+  background: #f5f5f5;
+}
+
+.as-seen-in {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  opacity: 0.7;
+}
+.as-seen-in > span {
+  color: #ccc;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 40px;
+}
+
+.as-seen-in img {
+  height: 20px;
+  margin-top: 40px;
+}
+
+.hero-image img {
+  width: 500px;
+  max-width: 100%;
+}

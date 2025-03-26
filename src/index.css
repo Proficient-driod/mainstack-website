@@ -1,0 +1,275 @@
+
+body{
+  overflow-x: hidden;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+.nav{
+  font-family: 'Font2' , sans-serif;
+  font-weight: 600;
+}
+
+.login{
+  font-family: 'Font2' , sans-serif;
+  font-weight: 600;
+}
+
+.signup{
+  font-family: 'Font2' , sans-serif;
+  font-weight: 600;
+}
+
+
+.powered-btn{
+  font-family: 'Font1' , sans-serif;
+  font-weight: 400;
+}
+
+
+h1{
+  font-family: 'Font8' , sans-serif;
+  font-weight: 600;
+}
+
+
+.hero-content >p{
+  font-family: 'Font3' , sans-serif;
+  font-weight: 500;
+}
+
+
+.cta-button{
+  font-family: 'Font2' , sans-serif;
+  font-weight: 600;
+}
+
+
+.as-seen-in > span{
+  font-family: 'Font3' , sans-serif;
+  font-weight: 500;
+}
+
+
+.billing-text{
+  font-family: 'Font3' , sans-serif;
+  font-weight: 500;
+}
+
+
+.header >h1{
+  font-family: 'Font8' , sans-serif;
+  font-weight: 600;
+}
+
+
+.tab-button{
+  font-family: 'Font2' , sans-serif;
+  font-weight: 600;
+}
+
+
+h2{
+  font-family: 'Font6' , sans-serif;
+  font-weight: 700;
+}
+
+
+.left-content >p{
+  font-family: 'Font2' , sans-serif;
+  font-weight: 600
+}
+
+.demo-button{
+  font-family: 'Font2' , sans-serif;
+  font-weight: 600;
+}
+
+
+.business-tools{
+  font-family: 'Font3' , sans-serif;
+  font-weight: 600;
+}
+
+.store{
+font-family: 'Font8' , sans-serif;
+  font-weight: 600;
+}
+.tabs button{
+  font-family: 'Font2' , sans-serif;
+  font-weight: 600;
+}
+
+.storefront-info .paragraph{
+  font-family: 'Font2' , sans-serif;
+  font-weight: 600;
+}
+
+.section{
+  font-family: 'Font3' , sans-serif;
+  font-weight: 600;
+}
+
+.main-heading{
+  font-family: 'Font8' , sans-serif;
+  font-weight: 600;
+}
+.feature-title{
+  font-family: 'Font6' , sans-serif;
+  font-weight: 700;
+}
+
+.feature-description{
+  font-family: 'Font2' , sans-serif;
+  font-weight: 600;
+}
+
+
+.showcase-text{
+  font-family: 'Font8' , sans-serif;
+  font-weight: 600;
+}
+
+
+.join-users-title{
+   font-family: 'Font8' , sans-serif;
+  font-weight: 600;
+}
+
+
+.join-users-description{
+  font-family: 'Font8' , sans-serif;
+  font-weight: 600;
+}
+
+
+.join-users-button{
+  font-family: 'Font2' , sans-serif;
+  font-weight: 600;
+}
+
+
+.location > h4{
+  font-family: 'Font6' , sans-serif;
+  font-weight: 700;
+}
+
+
+.location >p{
+  font-family: 'Font3' , sans-serif;
+  font-weight: 500;
+}
+
+h3{
+  font-family: 'Font6' , sans-serif;
+  font-weight: 700;
+}
+
+
+li{
+  font-family: 'Font3' , sans-serif;
+  font-weight: 500;
+}
+
+
+
+.main{
+  font-family: 'Font3' , sans-serif;
+  font-weight: 500;
+}
+
+
+.disclaimer{
+   font-family: 'Font3' , sans-serif;
+  font-weight: 500;
+}
+
+
+.checkout{
+   font-family: 'Font6' , sans-serif;
+  font-weight: 700;
+}
+
+.paragraph{
+  font-family: 'Font2' , sans-serif;
+  font-weight: 500;
+}
+
+
+.payment-links-content >h2{
+  font-family: 'Font6' , sans-serif;
+  font-weight: 700;
+}
+
+
+.payment{
+  font-family: 'Font2' , sans-serif;
+  font-weight: 500;
+}
+
+
+.paymment-api-content > h2{
+  font-family: 'Font6' , sans-serif;
+  font-weight: 700;
+}
+
+
+.paragraph1{
+  font-family: 'Font2' , sans-serif;
+  font-weight: 500;
+}
+
+
+.invoicing{
+  font-family: 'Font2' , sans-serif;
+  font-weight: 500;
+}
+
+
+.create-invoice-button{
+  font-family: 'Font2' , sans-serif;
+  font-weight: 600;
+}
+
+
+
+.store{
+ font-family: 'Font8' , sans-serif;
+  font-weight: 600; 
+}
+
+
+.nav-container > button{
+  font-family: 'Font2' , sans-serif;
+  font-weight: 600;
+}
+
+
+.head1{
+font-family: 'Font6' , sans-serif;
+  font-weight: 700;
+}
+
+
+.description{
+ font-family: 'Font2' , sans-serif;
+  font-weight: 500; 
+}
+
+
+.bookings-text{
+  font-family: 'Font2' , sans-serif;
+  font-weight: 500; 
+}
+
+
+.bookings-button{
+   font-family: 'Font2' , sans-serif;
+  font-weight: 600;
+}
+
+
+.navbar > button{
+  font-family: 'Font2' , sans-serif;
+  font-weight: 600;
+}

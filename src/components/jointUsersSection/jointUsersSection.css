@@ -1,0 +1,67 @@
+.join-users-container {
+  text-align: center;
+  height: 460px;
+  width: 1480px;
+  margin: 0 auto;
+  color: white;
+  position: relative;
+  margin-top: 0px;
+  border-radius: 20px; /* Curved edges */
+  overflow: hidden;
+}
+
+.join-users-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 30px; /* Curved edges for the image */
+  display: block; /* Ensures it doesn't break layout */
+}
+
+
+.join-users-content {
+  max-width: 100%;
+}
+
+.join-users-title {
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 88%;
+  letter-spacing: 0.1%;
+  color: white;
+  margin: 0px;
+  position: absolute;
+  top: 80px;
+  left: 33%;
+}
+
+
+.join-users-description {
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: -1%;
+  margin-top: 20px;
+  position: absolute;
+  top: 200px;
+  left: 33%;
+  color: white;
+}
+
+
+.join-users-button {
+  margin-top: 40px;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  background: black;
+  color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  display: block;
+  margin-left: 150px;
+  
+}
+
+
+.join-users-button:hover {
+  background: #333;
+}
