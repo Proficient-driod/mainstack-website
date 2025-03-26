@@ -1,5 +1,5 @@
 import React from "react";
-import "./ShowcaseCard.css";
+import "./showcaseCard.css";
 import Rectangle from "../../components/assets/Rectangle.png"
 import Payments from "../../components/assets/Payments.png"
 
