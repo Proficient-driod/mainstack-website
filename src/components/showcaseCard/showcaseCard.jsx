@@ -10,8 +10,8 @@ const ShowcaseCard = () => {
       <div className="showcase-content">
         <img src={Payments} alt="" />
         <h2 className="showcase-text">
-          No matter where your customers, clients, or fans<br/> are, 
-          Mainstack makes it easy to showcase and<br/> get paid.
+          No matter where your customers, clients, or fans are, 
+          Mainstack makes it easy to showcase and get paid.
         </h2>
       </div>
     </div>

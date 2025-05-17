@@ -146,14 +146,22 @@
 
 .billing-container {
   position: relative;
-  padding-left: 100px;
-
+  /* padding-right: 0px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 40px;
+  padding: 10px; 
+  width: 100vw;
+  margin: auto; 
 }
 
-.header {
+.billing-container > .headerr {
   text-align: left;
-  margin-bottom: 20px;
- box-shadow: none; 
+  /* margin-bottom: 20px; */
+ box-shadow: none;
+ padding: 10px;
 }
 
 .title-gradient {
@@ -165,25 +173,26 @@
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 2px;
-  margin-left: 40px;
-  margin-top: 30px;
-  
+  /* margin-top: 100px; */
 }
 
-.header> h1 {
+.headerr> h1 {
   font-size: 64px;
   font-weight: 600px;
   color: #000;
-  margin-left: 30px;
   word-spacing: 3px;
   text-align: left;
   line-height: 100%;
   letter-spacing: -1%;
-  margin-top: 30px;
+  /* margin-top: 30px; */
+  max-width: 100%;
+  padding: 10px;
+  width: 80%;
 }
 
 .focus-highlight {
   color: #868e96;
+
 }
 
 .tabs-container {
@@ -193,16 +202,16 @@
   border-radius: 100px;
   gap: 4px;
   margin-bottom: 80px;
-  width: 492px;
-  height: 52px;
-  margin-left: 400px;
-  margin-top: 80px;
+  width:500px;
+  height: 48px;
   position: sticky;
   top: 110px;
   z-index: 10;
+  overflow-x: auto;
+  margin: 30px, 20%;
 }
 
-.tab-button {
+.tabs-button {
   background: transparent;
   border: none;
   padding: 10px 10px;
@@ -220,7 +229,7 @@
   right: 24px;
 }
 
-.tab-button.active {
+.tabs-button.active {
   background: white;
   color: black;
   font-weight: bold;
@@ -234,6 +243,9 @@
   margin-left: 50px;
 }
 
+.cards-container{
+  padding: 20px;
+}
 
 .subscription-card {
   display: flex;
@@ -245,7 +257,7 @@
   gap: 64px;
   border-radius: 24px;
   color: white;
-  width: 1200px;
+  max-width: 1050px;
   height: 400px;
   position: sticky;
   margin-bottom: 50px;
@@ -259,10 +271,12 @@
 .left-content >p{
  color: #131316; 
  font-size: 18px;
- line-height: 22px;
- letter-spacing: 0.2px;
- word-spacing: 0px;
+ line-height: 24px;
+ letter-spacing: -0.2px;
  margin-left: 50px;
+ margin-top: 10px;
+ width: 345px;
+ height: 72px;
 }
 .icon {
   font-size: 30px;
@@ -274,11 +288,9 @@
   line-height: 40px;
   letter-spacing: -0.5px;
   margin-left: 50px;
-}
-
-p {
-  font-size: 14px;
-  margin: 10px 0;
+  margin-top: 40px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .demo-button {
@@ -296,7 +308,7 @@ p {
   left: 16px;
   right: 16px;
   gap: 4px;
-  margin-top: 20px;
+  margin-top: 40px;
   margin-left: 50px;
 }
 
@@ -332,19 +344,19 @@ p {
   align-items: center;
   justify-content: space-between;
   background: linear-gradient(to right, #ff758c, #ff7eb3);
-  padding: 40px;
   gap: 60px;
   border-radius: 25px;
   height: 450px;
-  width: 1220px;
+  width: 1050px;
   position: sticky;
   top: 195px;
   margin-bottom: 20px;
   border-radius: 24px;
+  padding: 40px;
 }
 
 .checkout-content {
-  max-width: 40%;
+  max-width: 33%;
   color: black;
   position: sticky;
 }
@@ -353,11 +365,14 @@ p {
   width: 60px;
   height: 60px;
   margin-bottom: 10px;
+  margin-left: 20px;
 }
 
 .payment-icon .icon{
   width: 60px;
   height: 60px;
+  margin-top: 30px;
+  margin-left: 20px;
 }
 
 
@@ -366,14 +381,20 @@ p {
   height: 60px;
   margin-bottom: 10px;
 }
-h2 {
+.payment-links-content>h2 {
   font-size: 28px;
   font-weight: bold;
+  margin-left: 25px;
+  margin-bottom: 10px;
 }
 
-p {
-  font-size: 16px;
+.payment{
+  font-size: 18px;
   margin-bottom: 20px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  width: 350px;
+  height: 72px;
 }
 
 .checkout-button {
@@ -406,7 +427,7 @@ p {
 .checkoutAi{
   width: 600px;
   height: 350px;
-  margin-left: 700px;
+  margin-left: 450px;
 }
 
 
@@ -424,6 +445,8 @@ p {
   line-height: 24px;
   letter-spacing: -0.2px;
   margin-left: 15px;
+  max-width: 100%;
+
 }
 
 
@@ -437,8 +460,8 @@ p {
   padding: 40px;
   border-radius: 25px;
   height: 450px;
-  width: 1240px;
-  gap: 350px;
+  width: 1050px;
+  /* gap: 350px; */
   position: sticky;
   top: 215px;
 }
@@ -457,7 +480,7 @@ p {
 .payment-link-content>h2 {
   font-size: 28px;
   font-weight: bold;
-  margin: 0px;
+  margin-left: 50px;
   padding: 0px;
 
 }
@@ -472,7 +495,7 @@ p {
   font-size: 13px;
   font-weight: bold;
   cursor: pointer;
-  width: 180px;
+  max-width: 100%;
   height: 60px;
   margin-top: 30px;
   margin-left: 15px;
@@ -484,13 +507,15 @@ p {
 
 .payment-links-image {
   position: relative;
-  max-width: 100%;
+  max-width: 70%;
+  margin-left: -150px;
 }
 
 .users-image {
   height: 350px;
   border-radius: 20px;
   width: 600px;
+ margin-left: 0px;
   
 }
 
@@ -515,17 +540,18 @@ p {
   background: linear-gradient(to bottom, #ffcc66, #ff9966);
   padding: 40px;
   border-radius: 25px;
-  width: 1230px;
-  height:440px ;
+  width: 1050px;
+  height:450px ;
   padding-left: 80px;
   position: sticky;
   top: 0px;
   margin-bottom: 40px;
   z-index: 11;
+  margin-bottom: 0;
 }
 
 .payment-api-content {
-  max-width: 40%;
+  max-width: 28%;
   color: black;
 }
 
@@ -541,8 +567,11 @@ p {
 }
 
 .payment-api-content>p {
-  font-size: 16px;
-  margin-bottom: 20px;
+  font-size: 18px;
+  margin-bottom: 50px;
+  width: 345px;
+  height: 72px;
+  margin-top: 10px;
 }
 
 .request-access-button {
@@ -574,42 +603,411 @@ p {
   height: 350px;
 }
 
-.payment-network-card {
-  position: absolute;
-  top: -30px;
-  left: -50px;
-  width: 250px;
-  background: white;
-  padding: 10px;
-  border-radius: 15px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+
+/* Tablets and smaller screens (max-width: 1024px) */
+ @media (min-width: 768px) and (max-width: 2024px) {
+  .billing-container {
+    padding: 20px 20px;
+    /* padding-left: 15%; */
+    max-width: 100%;
+  }
+  .headerr{
+    margin-left: 0px;
+  }
+
+  .headerr > h1 {
+    font-size: 64px;
+    /* margin-left: 20px; */
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .tabs-container {
+    width: 60%;
+    top: 90px;
+
+  }
+
+  .subscription-card {
+    width: 95%;
+    flex-direction:row;
+    height: auto;
+    gap: 32px;
+  }
+
+  .left-content {
+    max-width: 45%;
+    margin-left: 0px;
+    height: auto;
+  }
+
+
+  .icon{
+    margin-left: 25px;
+    margin-top: 20px;
+  }
+
+
+  .payment-icon >h2{
+    margin-left: 0px;
+  }
+   
+
+.left-content >p{
+  text-align: left;
 }
 
-.currency-card {
-  position: absolute;
-  bottom: -30px;
-  right: -50px;
-  background: white;
-  padding: 10px 15px;
-  border-radius: 10px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+.demo-button{
+  max-width: 50%;
 }
 
-.currency-card ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+  .subscription-image{
+    width: 100%;
+    height: auto;
+    margin-left: 50px;
+  }
+  
+  .checkout-container,
+  .payment-links-container,
+  .payment-api-container {
+    width: 95%;
+    flex-direction: row;
+    height: auto;
+    padding: 50px;
+    /* gap: 32px; */
+  }
+
+  .checkout-content,
+  .payment-links-content,
+  .payment-api-content {
+    max-width: 40%;
+    text-align: left;
+  }
+
+
+  .checkout-button, 
+  .payment-button,
+  .request-access-button{
+    max-width: 50%;
+  }
+
+
+  .checkout-image,
+  .payment-links-image,
+  .payment-api-image {
+    max-width: 55%;
+  }
+
+
+  .users-image{
+   margin-left: 70px;
+   max-width: 90%;
+  }
+
+  .checkoutAi,
+  .userr-image,
+  .users-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .checkoutAi{
+    margin-left: 65%;
+  }
+
+  
+ .checkout-button{
+max-width: 60%;
+ }
+
+
+  .demo-button,
+  .payment-button,
+  .request-access-button {
+    max-width: 70%;
+    text-align: center;
+  }
 }
 
-.currency-card li {
-  font-size: 16px;
-  font-weight: bold;
-  margin-bottom: 5px;
-  display: flex;
-  align-items: center;
+ /*Mobile devices (max-width: 768px)*/
+@media (min-width: 480px) and (max-width: 768px) {
+  .billing-container {
+    margin-bottom: 20px;
+    /* padding-left: 10%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .headerr {
+    padding-left: 20px;
+    text-align: left;
+  }
+
+ .headerr > h1{
+  font-size: 28px;
+  margin-bottom: 0px;
+ }
+
+  .title-gradient{
+    margin-left: 0px;
+    padding-left: 0px;
+    text-align: left;
+  }
+
+  .header > h1 {
+    font-size: 36px;
+    /* padding-left: 40px; */
+  }  
+
+  .tabs-container {
+    flex-direction: row;
+    height: auto;
+    width: 88%;
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+ .tabs-button.active{
+  padding: 3%;
+  border-radius: 25px;
+ }
+
+  .subscription-card {
+    padding: 30px;
+    gap: 20px;
+    margin-right: 30px;
+  }
+
+
+.left-content .icon{
+  margin: 0px;
+  padding: 0px;
 }
 
-.currency-card span {
-  margin-left: 10px;
-  font-size: 18px;
+  .left-content > h2 {
+    font-size: 24px;
+    text-align: left;
+    margin-left: 0;
+  }
+
+  .left-content > p {
+    font-size: 18px;
+    text-align: left;
+    margin-left: 0;
+  }
+
+
+  .demo-button{
+    margin-left: 0px;
+  }
+
+
+  .subscription-image{
+    max-width: 100%;
+    margin-left: 20px;
+    
+  }
+
+  .checkout-container,
+  .payment-links-container,
+  .payment-api-container {
+    padding: 30px;
+    /* gap: 20px; */
+    margin-right: 20px;
+    max-width: 100%;
+  }
+
+
+  .checkout-icon .icon{
+    margin-bottom: 0px;
+  }
+
+
+  .checkout-button,
+  .payment-button,
+  .request-access-button {
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+  }
+
+
+  .checkoutAi{
+    margin-left: 90%;
+    width: 80%;
+  }
+
+
+  .checkout-content{
+    max-width: 65%;
+  }
+
+  .checkout{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+
+  .paragraph{
+    font-size: 18px;
+    margin-top: 10px;
+    width: 95%;
+  }
+
+
+ .paragraph1{
+  max-width: 100%;
+  width: 80%;
+ }
+
+
+ .payment{
+  width:100%;
+ }
+
+ .payment-links-content{
+  width: 60%;
+  max-width: 100%;
+ }
+
+
+ .payment-api-content{
+  max-width: 100%;
+  width: 60%;
+ }
+
+
+
+  .userr-image{
+    margin-left: 10%;
+    max-width: 100%;
+    width: 100%;
+  }
+  
+  
+  .users-image {
+    width: 90%;
+    max-width: 100%;
+    height: auto;
+    margin-left: 15%;
+  }
 }
+
+/* Small mobile screens (max-width: 480px) */
+@media (max-width: 480px) {
+
+ .billing-container{
+  padding: 0px;
+  width: 100%;
+  height: auto;
+ }
+
+
+  .headerr > h1 {
+    font-size: 28px;
+    line-height: 120%;
+    letter-spacing:-0.64px;
+    word-spacing: 0px;
+    max-width: 90%;
+  }
+
+
+ .headerr{
+  padding-left:20px ;
+ }
+
+
+  .tabs-container {
+    width:90%;
+    padding: 0px;
+
+  }
+
+  .tabs-button {
+    font-size: 16px;
+    /* padding: 8px; */
+  }
+
+
+ .tabs-button.active{
+  padding:5px;
+ }
+
+  .subscription-card {
+    padding: 24px;
+    /* gap: 15px;*/ 
+    width: 80%;
+  }
+
+
+.left-content >h2{
+  font-size: 28px;
+}
+
+
+ .left-content{
+  max-width: 100%;
+ }
+
+
+
+ 
+
+  .checkout-container,
+  .payment-links-container,
+  .payment-api-container {
+    padding: 24px;
+    /* gap: 10px; */
+    width: 80%;
+    text-align: left;
+    height: 50%;
+
+  }
+
+
+ .checkout-content,
+ .payment-api-content,
+ .payment-link-content{
+  width: 100%;
+  height: auto;
+ }
+
+
+ .checkout-content,
+ .payment-api-content{
+  max-width: 100%;
+
+ }
+
+
+  .payment{
+   width: 100%;
+  }
+
+
+  .payment-button{
+    max-width: 100%;
+    height: 60px;
+    font-size: 14px;
+  
+  }
+
+
+  .checkout-button,
+  .request-access-button {
+    font-size: 12px;
+    height: 45px;
+    max-width: 50%;
+  }
+
+  .subscription-image,
+  .checkoutAi,
+  .userr-image,
+  .users-image {
+    width: 100%;
+    display: none;
+  }
+} 

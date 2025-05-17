@@ -55,11 +55,11 @@ const Subscription = () => {
   return (
     <div className="billing-container">
       {/* Header Section */}
-      <div className="header">
+      <div className="headerr">
         <h3 className="title-gradient">BILLING OS</h3>
         <h1>
-          Secure, flexible and reliable payments made {" "} <br/>simple so you can
-          <span className="focus-highlight">focus on what matters most,<br/> your business.</span>
+          Secure, flexible and reliable payments made simple so you can
+          <span className="focus-highlight"> focus on what matters most, your business.</span>
         </h1>
       </div>
 
@@ -68,7 +68,7 @@ const Subscription = () => {
         {tabs.map((tab) => (
           <button
             key={tab}
-            className={`tab-button ${activeTab === tab ? "active" : ""}`}
+            className={`tabs-button ${activeTab === tab ? "active" : ""}`}
             onClick={() => setActiveTab(tab)}
           >
             {tab}
@@ -83,13 +83,13 @@ const Subscription = () => {
             <img src={booking} alt="Icon" className="icon" />
             <h2>Subscriptions</h2>
             <p>
-              Offer recurring billing to your customers <br/> wherever they are. Create country-based <br/>pricing in 150+ local
-              currencies starting in <br/>mins.
+              Offer recurring billing to your customers wherever they are. Create country-based pricing in 150+ local
+              currencies starting in mins.
             </p>
             <button className="demo-button">Request Demo</button>
           </div>
           <div className="right-content">
-            <img src= {features} alt="User" />
+            <img className="subscription-image" src= {features} alt="User" />
             </div>
           </div>
       )}
@@ -100,8 +100,8 @@ const Subscription = () => {
               </div>
               <h2 className= "checkout">Checkout AI</h2>
               <p className="paragraph">
-                Accept payments directly through your<br/> website or sales pages. Easily
-                embed our <br/>widget or generate a link for your customers.
+                Accept payments directly through your website or sales pages. Easily
+                embed our widget or generate a link for your customers.
               </p>
               <button className="checkout-button">Create an Account</button>
             </div>
@@ -116,10 +116,10 @@ const Subscription = () => {
         <div className="payment-icon">
           <img src={booking} alt="Icon" className="icon" />
         </div>
-        <h2>Payment Links</h2>
+        <h2 className="links">Payment Links</h2>
         <p className="payment">
-          Create a one-off payment link for a unique<br/> service or product. Get
-          paid easily for your<br/> crafts anytime.
+          Create a one-off payment link for a unique service or product. Get
+          paid easily for your crafts anytime.
         </p>
         <button className="payment-button">Create Payment Link</button>
       </div>
@@ -136,8 +136,8 @@ const Subscription = () => {
         </div>
         <h2>Payment API</h2>
         <p className="paragraph1">
-          Get access to global payment options from<br/> one central dashboard.
-          Integrate with multiple<br/> payment processors with a single line of code,<br/>
+          Get access to global payment options from one central dashboard.
+          Integrate with multiple payment processors with a single line of code,
           starting in mins.
         </p>
         <button className="request-access-button">Request Access</button>

@@ -8,12 +8,12 @@ import CreatorTools from "../../components/CreatorTools/CreatorTools.jsx";
 import ShowcaseCard from "../../components/showcaseCard/showcaseCard.jsx";
 import JoinUsersSection from "../../components/jointUsersSection/jointUsersSection.jsx";
 import Footer from "../../components/footer/Footer.jsx";
+import Foooter from "../../components/CreatorTools/footerOne/Foooter.jsx";
 //import Bookings from "../../components/cards/Bookings.jsx";
 //import CheckoutAiCard from "../../components/Subscription/CheckoutAiCard.jsx"
 //import Courses from "../../components/cards/Courses.jsx";
 //import Invoicing from "../../components/cards/Invoicing.jsx";
 //import PaymentAPI from "../../components/cards/PaymentApi.jsx";
-
 const Home = () => {
   return (
     <div className="parent">
@@ -25,9 +25,7 @@ const Home = () => {
       <ShowcaseCard />
       <JoinUsersSection />
       <Footer />
-      
-  
-      <div></div>
+      <Foooter /> 
     </div>
   );
 };

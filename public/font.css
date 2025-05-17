@@ -56,7 +56,6 @@
        url('/Web/Degular_Display-Semibold.woff') format('woff');
 }
 
-
 @font-face {
   font-family: 'Font9';
   src: url('/Web/Degular_Display-Semibold.woff2') format('woff2'),
@@ -64,5 +63,8 @@
 }
 
 
-
-/* Repeat for all fonts */
+@font-face {
+  font-family: 'Font10';
+  src: url('/Web/Degular_Display-Light.woff2') format('woff2'),
+       url('/Web/Degular_Display-Light.woff') format('woff');
+}

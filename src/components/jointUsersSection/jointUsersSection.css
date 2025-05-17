@@ -1,20 +1,21 @@
 .join-users-container {
   text-align: center;
-  height: 460px;
-  width: 1480px;
-  margin: 0 auto;
+  height: 500px;
+  width: 100%;
+  margin:  auto;
   color: white;
   position: relative;
   margin-top: 0px;
   border-radius: 20px; /* Curved edges */
   overflow: hidden;
+  margin-bottom: 30px;
 }
 
 .join-users-container img {
   width: 100%;
-  height: auto;
-  border-radius: 30px; /* Curved edges for the image */
-  display: block; /* Ensures it doesn't break layout */
+  height: 500px;
+  border-radius: 30px; 
+  display: block; 
 }
 
 
@@ -23,7 +24,7 @@
 }
 
 .join-users-title {
-  font-size: 64px;
+  font-size: 72px;
   font-weight: 600;
   line-height: 88%;
   letter-spacing: 0.1%;
@@ -64,4 +65,46 @@
 
 .join-users-button:hover {
   background: #333;
+}
+
+
+
+@media (max-width: 1024px) {
+  .hero-section h1 {
+    font-size: 36px;
+  }
+
+  .hero-section h2 {
+    font-size: 30px;
+  }
+
+  .hero-section p {
+    font-size: 15px;
+    padding: 0 10px;
+  }
+
+  .hero-section button {
+    font-size: 15px;
+    padding: 10px 25px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .hero-section h1 {
+    font-size: 28px;
+  }
+
+  .hero-section h2 {
+    font-size: 22px;
+  }
+
+  .hero-section p {
+    font-size: 14px;
+  }
+
+  .hero-section button {
+    font-size: 14px;
+    padding: 8px 20px;
+  }
 }

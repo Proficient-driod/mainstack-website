@@ -15,9 +15,8 @@ const Storefront = () => {
       <header className="head">
         <p className="business-tools">BUSINESS TOOLS</p>
         <h1 className="store">
-          Take charge of your sales with our robust <br />
-          business solutions and tools, built and tailored to <br />
-          <span className="highlight-text">your everyday business needs.</span>
+          Take charge of your sales with robust business solutions and tools, built and tailored to 
+          <span className="highlight-text"> your everyday business needs.</span>
         </h1>
       </header>
       <div>
@@ -54,6 +53,7 @@ const Storefront = () => {
 
 
       {/* Sticky Storefront Section */}
+      <div className="cards-container">
       <div className="storefront-card" >
         <div className="left-section">
           <div className="icon-title">
@@ -63,8 +63,8 @@ const Storefront = () => {
             <h2 className="head1">Storefront</h2>
           </div>
           <p className="description">
-            Create a store that turns visitors into<br/> customers. Sell your products
-            to anyone,<br/> anywhere, anytime.
+            Create a store that turns visitors into customers. Sell your products
+            to anyone, anywhere, anytime.
           </p>
           <button className="store-btn">Create storefront</button>
         </div>
@@ -80,8 +80,8 @@ const Storefront = () => {
           <img className="icon1"src={book} alt="" />
         </div>
         <h2>Invoicing</h2>
-        <p className="paragraph1">
-          Manage all payments in one place. Get paid <br/>faster for your services from clients locally and<br/> abroad.
+        <p className="paragraph2">
+          Manage all payments in one place. Get paid faster for your services from clients locally and abroad.
         </p>
         <button className="create-invoice-button">Create Invoice</button>
       </div>
@@ -100,8 +100,8 @@ const Storefront = () => {
         
         <h2 className="bookings-title">Bookings</h2>
         <p className="bookings-text">
-          Effortlessly manage your appointments and<br/> events with our user-friendly booking app that<br/> 
-          simplifies scheduling, saves you time, and <br/>provides a seamless experience for both you <br/>and your clients.
+          Effortlessly manage your appointments and events with our user-friendly booking app that 
+          simplifies scheduling, saves you time, and provides a seamless experience for both you and your clients.
         </p>
         <button className="bookings-button">Create Booking</button>
       </div>
@@ -112,6 +112,7 @@ const Storefront = () => {
       </div>
     </div>
     </div>
+   </div>
    </div>
   );
 };

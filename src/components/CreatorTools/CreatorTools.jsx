@@ -14,9 +14,9 @@ const CreatorTools = () => {
       {/* Header Section */}
       <h5 className="section">CREATOR TOOLS</h5>
       <h1 className="main-heading">
-        Elevate your brand. <span className="gray-text">Ignite your passion.</span>
-        <span className="black-text">Create, <br/>share, and monetize</span> your creative business with<br/> our robust tools.
-        <span className="black-text">Track analytics in one place.</span>
+        <span className="gray-text"> Elevate your brand.Ignite your passion.</span>
+        Create, share, and monetize your creative business with our robust tools.
+        Track analytics in one place.
       </h1>
 
       {/* Tab Switcher */}
@@ -39,10 +39,10 @@ const CreatorTools = () => {
           <img className="icons" src={booked} alt="" />
           <h3 className="feature-title">Link in Bio</h3>
           <p className="feature-description">
-            Create a Link in Bio to showcase your incredible<br/> work and services with our drag-and-drop site <br/>builder.
+            Create a Link in Bio to showcase your incredible work and services with our drag-and-drop site builder.
             No code required.
           </p>
-          <button className="cta-button">Create Link in Bio</button>
+          <button className="cta-buttonnnn">Create Link in Bio</button>
         </div>
 
         {/* Right Section */}
@@ -62,7 +62,7 @@ const CreatorTools = () => {
         </div>
         <h2 className="courses-title">Courses</h2>
         <p className="paragraph">
-          Monetize your knowledge, create and sell your <br/>courses with AI. Sell to anyone, anywhere,<br/> anytime. Easy peasy.
+          Monetize your knowledge, create and sell your courses with AI. Sell to anyone, anywhere, anytime. Easy peasy.
         </p>
         <button className="courses-button">Create Courses</button>
       </div>

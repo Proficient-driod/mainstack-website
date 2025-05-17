@@ -22,8 +22,8 @@
   margin: 0 ; /* Centers it */
   position: fixed;
   top: 35px; /*Adjust as needed */
-  left: 47%;
-  transform: translateX(-50%); /* Centers horizontally */
+  /* left: 47%; */
+  transform: translateX(13%); /* Centers horizontally */
   z-index: 1000; /* Ensures it's above other content */
   padding-bottom: 0px;
   padding-top: 0px;
@@ -54,7 +54,7 @@ size: 16px;
 }
 
 .nav a:hover {
-  transform: scale(1.5)
+  transform: scale(1)
 }
 
 .buttons {
@@ -101,4 +101,109 @@ size: 16px;
 
 .signup:hover {
   background: #333;
+}
+
+
+/* For tablets and smaller devices (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .header-container {
+    width: 90%;
+    height: auto;
+    padding: 8px 16px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .nav {
+    gap: 12px;
+  }
+
+  .nav a {
+    font-size: 14px;
+  }
+
+
+  .login, .signup {
+    font-size: 14px;
+    height: 42px;
+  }
+
+
+  .signup {
+    width: 140px;
+  }
+}
+
+/* For mobile devices (max-width: 768px) */
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+    height: auto;
+    width: 95%;
+    padding: 12px;
+    top: 10px;
+    border-radius: 20px;
+  }
+
+  .logo {
+    height: 16px;
+  }
+
+  .nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .nav {
+    display: none; /* Hide nav links on extra small screens, could be replaced with a hamburger menu */
+  }
+
+  .nav a {
+    font-size: 14px;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .login, .signup {
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+  }
+
+
+   .login, .signup{
+  display: none;
+ }
+
+}
+
+/* For very small screens (max-width: 480px) */
+@media (max-width: 480px) {
+  .header {
+    box-shadow: none;
+  }
+
+  .header-container {
+    width: 70%;
+    padding: 8px;
+    top: 5px;
+    margin-top: 15%;
+  }
+
+  .nav {
+    display: none; /* Hide nav links on extra small screens, could be replaced with a hamburger menu */
+  }
+
+  .buttons {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .login, .signup {
+    width: 90%;
+  }
 }

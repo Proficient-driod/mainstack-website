@@ -3,18 +3,19 @@ import "./HeroSection.css";
 import frame from "../../components/assets/frame.png"
 import frames from "../../components/assets/frames.png"
 import logo from "../../components/assets/us-insider-logo.png"
-import layer from "../../components/assets/layer.png"
+// import layer from "../../components/assets/layer.png"
 import '../../../public/font.css'
 
 const HeroSection = () => {
   return (
     <section className="hero">
+      <div className="hero1">
       <div className="hero-content">
         <button className="powered-btn">POWERED BY AI</button>
         <h1>Earn globally on <br/>your terms</h1>
         <p>
-          Our tools empower businesses to grow revenue and creators to <br/>monetize
-          their work – quickly, seamlessly, and without currency<br/> limitations.
+          Our tools empower businesses to grow revenue and creators to monetize
+          their work – quickly, seamlessly, and without currency limitations.
         </p>
         <button className="cta-buttonn">Get started for free</button>
         <div className="as-seen-in">
@@ -25,7 +26,8 @@ const HeroSection = () => {
         </div>
       </div>
       <div className="hero-image">
-        <img src={layer} alt="Global network" />
+        {/* <img src={layer} alt="Global network" /> */}
+      </div>
       </div>
     </section>
   );

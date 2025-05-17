@@ -57,13 +57,13 @@ h1{
 }
 
 
-.header >h1{
+.headerr >h1{
   font-family: 'Font8' , sans-serif;
   font-weight: 600;
 }
 
 
-.tab-button{
+.tabs-button{
   font-family: 'Font2' , sans-serif;
   font-weight: 600;
 }
@@ -76,8 +76,8 @@ h2{
 
 
 .left-content >p{
-  font-family: 'Font2' , sans-serif;
-  font-weight: 600
+  font-family: 'Font3' , sans-serif;
+  font-weight: 500
 }
 
 .demo-button{
@@ -120,8 +120,8 @@ font-family: 'Font8' , sans-serif;
 }
 
 .feature-description{
-  font-family: 'Font2' , sans-serif;
-  font-weight: 600;
+  font-family: 'Font3' , sans-serif;
+  font-weight: 500;
 }
 
 
@@ -191,7 +191,7 @@ li{
 }
 
 .paragraph{
-  font-family: 'Font2' , sans-serif;
+  font-family: 'Font3' , sans-serif;
   font-weight: 500;
 }
 
@@ -203,7 +203,7 @@ li{
 
 
 .payment{
-  font-family: 'Font2' , sans-serif;
+  font-family: 'Font3' , sans-serif;
   font-weight: 500;
 }
 
@@ -214,8 +214,8 @@ li{
 }
 
 
-.paragraph1{
-  font-family: 'Font2' , sans-serif;
+.paragraph2{
+  font-family: 'Font3' , sans-serif;
   font-weight: 500;
 }
 
@@ -252,13 +252,13 @@ font-family: 'Font6' , sans-serif;
 
 
 .description{
- font-family: 'Font2' , sans-serif;
+ font-family: 'Font3' , sans-serif;
   font-weight: 500; 
 }
 
 
 .bookings-text{
-  font-family: 'Font2' , sans-serif;
+  font-family: 'Font3' , sans-serif;
   font-weight: 500; 
 }
 
@@ -272,4 +272,11 @@ font-family: 'Font6' , sans-serif;
 .navbar > button{
   font-family: 'Font2' , sans-serif;
   font-weight: 600;
+}
+
+
+
+.paragraph1{
+  font-family: 'Font3' , sans-serif;
+  font-weight: 500; 
 }
